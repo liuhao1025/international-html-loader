@@ -1,0 +1,22 @@
+{
+  "name": "international-html-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhao1025/international-html-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuhao1025/international-html-loader/issues"
+  },
+  "homepage": "https://github.com/liuhao1025/international-html-loader#readme",
+  "dependencies": {
+    "shorthash": "^0.0.2"
+  }
+}
