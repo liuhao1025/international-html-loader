@@ -65,7 +65,7 @@ module.exports = function (content) {
     // TODO 匹配部分标签属性
     var result = content.replace(NODE_TEXT_REG, function (matched, text) {
         // 移除首尾空格
-        text = text.replace(/(^[\r\n\s]*)|([\r\n\s]*$)/g, '')
+        text = text.replace(/(^[\r\n\s]*)|([\r\n\s]*$)/mg, '')
         var textKey = `${dirKey}.${sh.unique(text)}`
 
         // 空内容不需要处理
